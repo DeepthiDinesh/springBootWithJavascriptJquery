@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyFirstSpringPage</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--<script src="http://ajax.microsoft.com/ajax/jquery.validate/1.7/additional-methods.js"/>-->
+    <script src="js/external-js/numericInput.min.js"></script>
+    <script src="js/add_display_data_jquery.js"></script>
+    <!--<script src="js/add_display_data.js"></script>-->
+
+</head>
+<body>
+<h2> Welcome to Spring Boot Tutorial...! </h2>
+<form action="#">
+
+<h5>
+    <table>
+    <tr>
+        <td>User ID</td>
+        <td> <input type="text" id="userid" required /> </td>
+        <td> <div id="iderror"></div> </td>
+    </tr>
+
+    <tr>
+        <td>Name</td>
+        <td><input type="text" id="username" required /> </td>
+        <td> <div id="nameerror"></div></td>
+    </tr>
+    </table>
+    <br/>
+<input type="button" id="buttonid" value="Submit"/>
+</h5>
+</form>
+<div id="result"></div>
+</body>
+</html>
